@@ -5,56 +5,71 @@
   <meta charset="utf-8">
   <title>Syntax</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
 <body>
   <!-- Alll form items must be inside a <form> </form> tage
 Standard syntax :<form action="#" method="post"> -->
-<div class="container">
-  <div class="row">
-    <div class="col-sm-6">
-      <form action="#" method="post">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <form action="#" method="post">
           <label for="name" class="form-label">First Name:</label>
-      <input type="text" id="name" name="name" class="form-control" placeholder="Enter Your Name Here">
-      </form>
+          <input type="text" id="FN" name="FN" class="form-control" placeholder="Enter Your Name Here">
+
       </div>
       <div class="col">
-        <form action="#" meethod="post">
-             <label for="name" class="form-label">Last Name:</label>
-             <input type="text" id="name" name="name" class="form-control" placeholder="Enter Your Name">
-             </form>
-</div>
 
-<div class="row">
-  <div class="col-sm-5">
-    <form action="#" method="post">
-      <label for="name" class="form-label">First Name:</label>
-  <input type="text" id="name" name="name" class="form-control" placeholder="Enter Your Name Here">
-  </form>
-    </div>
+          <label for="name" class="form-label">Last Name:</label>
+          <input type="text" id="LN" name="LN" class="form-control" placeholder="Enter Your Name">
+
+      </div>
     </div>
     <div class="row">
-    <div class="col">
-      <form action="#" method="post">
-          <label for="name" class="form-label">First Name:</label>
-      <input type="text" id="name" name="name" class="form-control" placeholder="Enter Your Name Here">
-      </form>
+      <div class="col-sm-12">
+
+          <label for="name" class="form-label">Address Line 1:</label>
+          <input type="text" id="add1" name="add1" class="form-control" placeholder="Enter Your Name Here">
+
       </div>
+    </div>
+    <div class="row">
+      <div class="col">
+
+          <label for="name" class="form-label">Address Line 2:</label>
+          <input type="text" id="add2" name="add2" class="form-control" placeholder="Enter Your Name Here">
+
       </div>
-      <div class="row">
-        <div class="col">
-          <form action="#" method="post">
-              <label for="name" class="form-label">First Name:</label>
-          <input type="text" id="name" name="name" class="form-control" placeholder="Enter Your Name Here">
-          </form>
-          </div>
-          </div>
-              <!-- Every input needs a label
-      Input types : Text,-->
-        </div>
-        </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+
+          <label for="name" class="form-label">City:</label>
+          <input type="text" id="city" name="city" class="form-control" placeholder="Enter Your Name Here">
+
+      </div>
+      <div class="col-sm-2">
+
+          <label for="name" class="form-label">State:</label>
+          <input type="text" id="ST" name="ST" class="form-select" placeholder="State">
+          <select>
+            <option>AL</option>
+          </select>
+
+      </div>
+      <div class="col-sm-3">
+
+          <label for="name" class="form-label">Zip Code:</label>
+          <input type="text" id="ZC" name="ZC" class="form-control" placeholder="Enter Your Name">
+
+        </form>
+      </div>
+    </div>
+    <!-- Every input needs a label
+Input types : Text,-->
+  </div>
 
 </body>
 
