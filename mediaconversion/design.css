@@ -1,8 +1,17 @@
 body {
-      background-image: url(file:///C:/Users/21267/Downloads/images.jpg);
+     background-color: lightgrey;
+     background-image: url(../meadiaconversion/aiko.jpg);
 }
 
 .container{
-          color: antiquewhite;
-          
+           margin-top: 30px;
+           background-color: antiquewhite;
+           padding: 10px 10px;
+           border-radius: 14px;
+           color: black;
+           text-align: left;
+}
+
+#header{
+        text-align: center;
 }
