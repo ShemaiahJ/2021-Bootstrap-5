@@ -1,15 +1,28 @@
 body {
      background-color: lightgrey;
-     background-image: url(../meadiaconversion/aiko.jpg);
+     background-image: url(aiko2.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 
 .container{
-           margin-top: 30px;
-           background-image: url(../meadiaconversion/aiko.jpg);
-           padding: 10px 10px;
-           border-radius: 14px;
-           color: black;
-           text-align: left;
+          overflow: hidden;
+}
+
+.box{
+        height: 600px;
+        width: 300px;
+        background: #ddd;
+        position: relative;
+}
+
+.one{
+  margin-top: 30px;
+  background-color:antiquewhite;
+  padding: 10px 10px;
+  color: black;
+  text-align: left;
+     background: rdaial-gradiant(square at top left, transparent 45px, #ddd 0)
 }
 
 #header{
